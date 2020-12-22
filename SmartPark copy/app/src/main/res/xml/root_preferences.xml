@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Visuals">
+
+
+
+        <SwitchPreferenceCompat
+            app:key="color"
+            app:title="Dark Mode"
+            app:summary="Change the background color throught the app"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Your info">
+
+        <EditTextPreference
+            app:key="nameChange"
+            app:title="Change your name" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

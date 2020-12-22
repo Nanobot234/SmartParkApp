@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "775653091581",
+    "firebase_url": "https://smartpark-abeea.firebaseio.com",
+    "project_id": "smartpark-abeea",
+    "storage_bucket": "smartpark-abeea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775653091581:android:6ea56111f293ed5746f694",
+        "android_client_info": {
+          "package_name": "com.example.smartpark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775653091581-490sq7h7rm7ne633bfs92mrkc6qvc3l2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartpark",
+            "certificate_hash": "9450fc7fe6efa0d024e8a8c3bc43254961b114c4"
+          }
+        },
+        {
+          "client_id": "775653091581-sus3bv6l33ojs0vpiibrhhsbrdqeh34u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL7a4MD1mqSBqSPZXv_fXMkdQGOUhmXFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775653091581-sus3bv6l33ojs0vpiibrhhsbrdqeh34u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeavingLocationActivity">
+
+    <ProgressBar
+        android:id="@+id/Searchingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:indeterminate="true"/>
+
+
+    <TextView
+        android:id="@+id/DriverFound"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Deez"
+        android:textAlignment="center"
+        android:textFontWeight="10"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LocatingProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Locating Nearby Driver"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+
+        app:backgroundTint="@color/teal_200"
+        app:cornerRadius="10sp"
+        android:text="Continue"/>
+
+
+</RelativeLayout>
